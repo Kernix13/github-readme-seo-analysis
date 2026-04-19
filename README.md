@@ -93,7 +93,7 @@ The end goal is to turn these findings into practical insights that can be appli
 
 Summarize the most important insights discovered during the analysis.
 
-> 🚧 Nothing yet
+> 🚧 Section under construction
 
 <!-- Example:
 
@@ -219,6 +219,7 @@ Here are all the fields in `merged_data.csv`:
 
 <details>
   <summary><strong>Data Dictionary fields</strong></summary>
+  <br>
    <table>
       <thead>
          <tr>
@@ -329,7 +330,6 @@ Here are all the fields in `merged_data.csv`:
             <td>int64</td>
             <td>
                <ul>
-                  <p>My opinion on the quality of the README</p>
                   <li>0 = No link to live deploy</li>
                   <li>1 = Link to live deploy in sidebar</li>
                </ul>
@@ -350,6 +350,7 @@ Here are all the fields in `merged_data.csv`:
             <td>int64</td>
             <td>
                <ul>
+                  <p>My opinion on the quality of the README</p>
                   <li>1 = Bad</li>
                   <li>2 = Good/okay</li>
                   <li>3 = Very Good</li>
@@ -387,6 +388,11 @@ Here are all the fields in `merged_data.csv`:
             <td># of topics in sidebar</td>
          </tr>
          <tr>
+            <td>about_text</td>
+            <td>str</td>
+            <td>The About (description) text for the repo</td>
+         </tr>
+         <tr>
             <td>seo_title</td>
             <td>str</td>
             <td>The title from the Google SERPs</td>
@@ -411,7 +417,7 @@ Here are all the fields in `merged_data.csv`:
             <td>int64</td>
             <td>
                <ul>
-                  <p>My judgement based on the quality & length of the text at the top of the repo<p>
+                  <p>My judgement based on the text elements, and the quality & length of the text at the top of the repo<p>
                   <li>0 = No</li>
                   <li>1 = Yes</li>
                </ul>
@@ -442,9 +448,9 @@ Here are all the fields in `merged_data.csv`:
             <td>int64</td>
             <td>
                <ul>
-                  <li>0 = No blog/website</li>
-                  <li>1 = Blog/website</li>
-                  <li>2 = Links to Hashnode, Medium, etc.</li>
+                  <li>0 = Repo owner has no blog/website</li>
+                  <li>1 = Repo owner has blog/website</li>
+                  <li>2 = Repo owner has posts on Hashnode, Medium, etc.</li>
                </ul>
             </td>
          </tr>
@@ -635,21 +641,21 @@ I am in the early stages of learning Python, so I used ChatGPT to write the code
 
 There are other fields I may be able to get but for now I get the rest of the metrics by going to the repo.
 
-Repo-level metrics I would watch to get using the GitHub API are:
+Repo-level metrics I should also get using the GitHub API are:
 
 - Whether there is a live link in the sidebar or not
 - The number of watchers
 - The primary language IF it is part of the search query
 - the year, month, week, or day since last update
 
-README-level metrics I would watch to get using the GitHub API are:
+README-level metrics I should also get using the GitHub API are:
 
 - The "title" text (some READMEs do not have an H1 or H2 as the 1st heading)
 - The number of internal links
 - The number of external links
-- The number of images, both `![]()` and `<img>`
+- The number of images (both `![]()` and `<img>`)
 - The number of images with alt text
-- The count of H1, H2, and H3 elements
+- The count of H1, H2, and H3 elements (both `#` and `<h1>`)
 - Whether or not there is a Table of Contents or not
 
 I also need the first elements that are text elements, ideally H1 followed by a paragraph followed by an H2, ignoring images. It would be hard to program that since I have seen other elements at the top of the repo, plus there are other issues. I am doing all of that manually.
@@ -664,7 +670,7 @@ I am also counting the number of code blocks which may or may not be useful. The
 
 <!-- ✅ -->
 
-Credit datasets, tutorials, or inspiration (maybe these)
+<!-- Credit datasets, tutorials, or inspiration (maybe these) -->
 
 - [5 tips for making your GitHub profile page accessible](https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/): The article that got me thinking about repo SEO
 - [Awesome SEO tools](https://github.com/serpapi/awesome-seo-tools): decent list of tools
@@ -696,7 +702,9 @@ Contributions are welcome! If you'd like to help improve this project, please re
 
 <!-- ✅ -->
 
-This project is licensed under the [MIT License](./LICENSE).
+This project is licensed under the MIT License (coming soon).
+
+<!-- This project is licensed under the [MIT License](./LICENSE). -->
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 
