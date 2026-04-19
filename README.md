@@ -6,7 +6,7 @@
  <!-- LATER: Badges (Python, Pandas, Numpy?, Matplotlib, Seaborn?) -->
  <!-- Google: "sample readme for a jupyter notebook data analysis project" for good boilerplate -->
 
-This project performs a GitHub README SEO Analysis using Jupyter Notebook and data from GitHub Explore & Google to determine the metrics needed to rank in the SERPS.
+This project performs a GitHub README <abbr title="Search Engine Optimization">SEO</abbr> Analysis using Jupyter Notebook and data from GitHub Explore & Google to determine the metrics needed to rank in the <abbr title="Search Engine Results Pages">SERPs</abbr>.
 
 > [!NOTE]
 > I am new to Data Analysis and Jupyter Notebook. I am in the early stages of this analysis and it will take me a long time to finish unless I get help.
@@ -18,21 +18,25 @@ This project performs a GitHub README SEO Analysis using Jupyter Notebook and da
    📌 = Section not done
  -->
 
-<br>
+<span aria-hidden="true"><br></span>
 
 ## Overview
 
 <!-- ✅ -->
 
-The goal of this project is to understand why certain GitHub repositories rank in Google & GitHub Explore search results (SERPs) while others do not.
+The goal of this project is to understand why certain GitHub repositories rank in Google & GitHub Explore search results while others do not.
 
 I collected a dataset of repositories using 46 search phrases and recorded both Google rankings and GitHub Explore rankings. For each repository, I also gathered metrics related to README content, repository activity, and available SEO data like titles and meta descriptions.
 
 <!-- The analysis focuses on identifying patterns between these factors and ranking performance. In particular, it looks at whether common practices, such as having a clear README structure, or a descriptive introduction is associated with higher visibility. -->
 
+<!-- FROM GEMINI: Google often "scrapes" the first 150–160 characters of your README to use as the meta description snippet in search results. Having a clean, keyword-rich intro with proper semantic tags like <abbr> signals to the crawler that your content is high-quality and structured
+The Pro Move: Ensure your first sentence contains your primary keyword (likely "GitHub README SEO") within the first 60 characters.
+-->
+
 The end goal is to turn these findings into practical insights that can be applied to improve repository discoverability. This includes refining my own repositories as well as sharing useful patterns, the dataset, and the results with other developers.
 
-<br>
+<span aria-hidden="true"><br></span>
 
 <h2 id="back-to-top">Table of Contents</h1>
 
@@ -47,12 +51,12 @@ The end goal is to turn these findings into practical insights that can be appli
 1. [Installation](#installation)
 1. [Usage](#usage)
 1. [Future Improvements](#future-improvements)
-1. [Ai Usage](#ai-usage)
+1. [AI Usage](#ai-usage)
 1. [Acknowledgments](#acknowledgments)
 1. [Contributing](#contributing)
 1. [License](#license)
 
-<br>
+<span aria-hidden="true"><br></span>
 
 ## Key Questions
 
@@ -85,7 +89,7 @@ The end goal is to turn these findings into practical insights that can be appli
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 
-<br>
+<span aria-hidden="true"><br></span>
 
 ## Key Findings
 
@@ -101,11 +105,11 @@ Summarize the most important insights discovered during the analysis.
 - Temperature had a strong correlation with bike rentals.
 - Product category X generated 48% of revenue. -->
 
-### 🔍 Google SERP Insights
+### <span aria-hidden="true">🔍</span> Google SERP Insights
 
 - 🚧 Nothing yet (this sub-section may not be needed)
 
-### 🔍 GitHub Explore Insights
+### <span aria-hidden="true">🔍</span> GitHub Explore Insights
 
 - 🚧 Nothing yet (this sub-section may not be needed)
 
@@ -113,7 +117,7 @@ Summarize the most important insights discovered during the analysis.
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 
-<br>
+<span aria-hidden="true"><br></span>
 
 ## Data Sources
 
@@ -130,13 +134,13 @@ Two primary data files were generated:
 
 These datasets are joined using the `user_reponame` field to enable combined analysis of repository features and ranking performance (see `merged_data.csv`).
 
-### 🗃️ APIs Used
+### <span aria-hidden="true">🗃️</span> <abbr title="Application Programming Interfaces">APIs</abbr> Used
 
 - GitHub API: Used in `github_api.py` to collect repository metadata. This significantly reduced the need for manual data collection and improved consistency across records. More code could be added to get additional repo and README metrics.
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 
-<br>
+<span aria-hidden="true"><br></span>
 
 ## Methodology
 
@@ -150,7 +154,7 @@ These datasets are joined using the `user_reponame` field to enable combined ana
 
 > Repositories without a README file were excluded from content-based analysis where applicable, as key metrics (e.g., word count, structure, and links) could not be derived.
 
-### 🗃️ Data Collection
+### <span aria-hidden="true">🗃️</span> Data Collection
 
 <!-- ✅ Use the sub-sections below only if they improve clarity -->
 <!-- ✅ -->
@@ -167,7 +171,7 @@ This process resulted in:
 - 335 unique repositories
 - 455 total ranking records across all search phrases
 
-### 🔧 Data Processing and Transformation
+### <span aria-hidden="true">🔧</span> Data Processing and Transformation
 
 <!-- 📌 -->
 
@@ -176,7 +180,7 @@ This process resulted in:
 - Processing: organizing / filtering / restructuring, selecting columns, grouping/sorting, "prepare for analysis"
 - Transformation: creating new variables/features, aggregations, encoding / scaling, "change the data into new forms"
 
-### 📊 Data Analysis
+### <span aria-hidden="true">📊</span> Data Analysis
 
 <!-- 📌 -->
 
@@ -190,7 +194,7 @@ The analysis focused on identifying relationships between repository and README 
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 
-<br>
+<span aria-hidden="true"><br></span>
 
 ## Visualizations
 
@@ -204,7 +208,7 @@ Include screenshots of graphs from the notebook.
 
 Explain what each chart demonstrates.
 
-<br>
+<span aria-hidden="true"><br></span>
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 
@@ -219,7 +223,7 @@ Here are all the fields in `merged_data.csv`:
 
 <details>
   <summary><strong>Data Dictionary fields</strong></summary>
-  <br>
+  <span aria-hidden="true"><br></span>
    <table>
       <thead>
          <tr>
@@ -460,7 +464,7 @@ Here are all the fields in `merged_data.csv`:
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 
-<br>
+<span aria-hidden="true"><br></span>
 
 ## Project Structure
 
@@ -502,7 +506,7 @@ Here are all the fields in `merged_data.csv`:
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 
-<br>
+<span aria-hidden="true"><br></span>
 
 ## Tech Stack
 
@@ -519,7 +523,7 @@ Here are all the fields in `merged_data.csv`:
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 
-<br>
+<span aria-hidden="true"><br></span>
 
 ## Installation
 
@@ -582,7 +586,7 @@ pip install -r requirements.txt
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 
-<br>
+<span aria-hidden="true"><br></span>
 
 ## Usage
 
@@ -610,7 +614,7 @@ pip install -r requirements.txt
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 
-<br>
+<span aria-hidden="true"><br></span>
 
 ## Future Improvements
 
@@ -623,9 +627,9 @@ pip install -r requirements.txt
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 
-<br>
+<span aria-hidden="true"><br></span>
 
-## AI Usage
+## <abbr title="Artificial Intelligence">AI</abbr> Usage
 
 <!-- 📌 -->
 
@@ -664,7 +668,7 @@ I am also counting the number of code blocks which may or may not be useful. The
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 
-<br>
+<span aria-hidden="true"><br></span>
 
 ## Acknowledgments
 
@@ -680,13 +684,13 @@ I am also counting the number of code blocks which may or may not be useful. The
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 
-<br>
+<span aria-hidden="true"><br></span>
 
 <!-- ## Resources
 
 - List items here (Do I need this section?)
 
-<br> -->
+<span aria-hidden="true"><br></span> -->
 
 ## Contributing
 
@@ -696,7 +700,7 @@ Contributions are welcome! If you'd like to help improve this project, please re
 
 <!-- Should I add a stars button here like I've seen in other repos? -->
 
-<br>
+<span aria-hidden="true"><br></span>
 
 ## License
 
