@@ -83,7 +83,7 @@ The end goal is to turn these findings into practical insights that can be appli
 2. Do SERP fields reuse leading substrings of:
    - about text
    - README title
-   - Intro paragraphs
+   - Intro paragraphs (I need intro text)
 3. Does Google fall back to:
    - username/repo for SEO Title when no usable text exists?
 
@@ -706,9 +706,9 @@ Contributions are welcome! If you'd like to help improve this project, please re
 
 <!-- ✅ -->
 
-This project is licensed under the MIT License (coming soon).
+This project is licensed under the <abbr title="Massachusetts Institute of Technology">MIT</abbr> License (coming soon).
 
-<!-- This project is licensed under the [MIT License](./LICENSE). -->
+<!-- This project is licensed under the <a href="./LICENSE"> <abbr title="Massachusetts Institute of Technology">MIT</abbr> License</a>. -->
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 
