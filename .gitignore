@@ -1,0 +1,36 @@
+# personal files, remove later
+github-api.md
+temp.md
+nb-notes.md
+sandbox/
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code (optional but common)
+.vscode/
+
+# Data files (optional — see note below)
+# data/*.csv
+
+# Other files and folders
+.pytest_cache/
+.coverage
+htmlcov/
