@@ -1,6 +1,6 @@
 # SEO Best Practices
 
-This will be a lot of list items until I figure out the layout for the file:
+This will be a lot of list items until I figure out the layout for the file. Right now this is "rough".
 
 > GitHub: 100 million "active users" in January 2023, approximately 14 million daily visitors, 96.4 million page impressions per day
 
@@ -51,10 +51,15 @@ Keyword placement (early vs buried)
   - 800–2,000 is ideal
   - 2,000–4,000 maybe, Depends on project structure/type
 - make sure you star your repos - 1 is better than none
+- Compress your images and convert them to `.webp` using Squooshhttps://squoosh.app/ - This is not an SEO metric, it is a best practices metric which affects your Google SERPs ranking - here are the only settings you should change:
+  - Compress select list - choose WebP 90% of the time, choose Browser PNG if you specifically need lossless transparency fidelity
+  - Quality slider (critical) - accept default of 75 maybe up to 85, 60–70 → smaller file, slight quality loss (usually fine for screenshots) - rule of thumb: Lower it until you just start to notice quality loss, then bump it back up slightly
+  - Advanced section - skip
+  - so accept 75 and change to WebP then click blue Download button/blob
 
 ## GitHub Optimization
 
 - Repo About text optimization
 - Topics (your earlier convo—this is huge)
 - Repo naming conventions
-- How GitHub Explore surfaces repos
+- How GitHub Explore ranks repos
