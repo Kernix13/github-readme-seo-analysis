@@ -30,10 +30,6 @@ I collected a dataset of repositories using 46 search phrases and recorded both 
 
 <!-- The analysis focuses on identifying patterns between these factors and ranking performance. In particular, it looks at whether common practices, such as having a clear README structure, or a descriptive introduction is associated with higher visibility. -->
 
-<!-- FROM GEMINI: Google often "scrapes" the first 150–160 characters of your README to use as the meta description snippet in search results. Having a clean, keyword-rich intro with proper semantic tags like <abbr> signals to the crawler that your content is high-quality and structured
-The Pro Move: Ensure your first sentence contains your primary keyword (likely "GitHub README SEO") within the first 60 characters.
--->
-
 The end goal is to turn these findings into practical insights that can be applied to improve repository discoverability. This includes refining my own repositories as well as sharing useful patterns, the dataset, and the results with other developers.
 
 <span aria-hidden="true"><br></span>
@@ -454,7 +450,7 @@ Here are all the fields in `merged_data.csv`:
                <ul>
                   <li>0 = Repo owner has no blog/website</li>
                   <li>1 = Repo owner has blog/website</li>
-                  <li>2 = Repo owner has posts on Hashnode, Medium, etc.</li>
+                  <li>2 = Repo owner has posts on Hashnode, Medium, YouTube, etc.</li>
                </ul>
             </td>
          </tr>
