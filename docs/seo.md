@@ -22,11 +22,12 @@ Intro paragraph optimization
 Keyword placement (early vs buried)
 ```
 
-> FROM GEMINI: Google often "scrapes" the first 150–160 characters of your README to use as the meta description snippet in search results. Having a clean, keyword-rich intro with proper semantic tags like <abbr> signals to the crawler that your content is high-quality and structured
-> The Pro Move: Ensure your first sentence contains your primary keyword (likely "GitHub README SEO") within the first 60 characters.
+> FROM GEMINI: Google often "scrapes" the first 150–160 characters of your README to use as the meta description snippet in search results. Having a clean, keyword-rich intro with proper semantic tags like `<abbr>` signals to the crawler that your content is high-quality and structured.
 
-1. why are repos in Google but not in Explore?
-2. why in Explore but not in Google?
+> The Pro Move: Ensure your first sentence contains your primary keyword within the first 60 characters.
+
+1. Why are repos in Google but not in Explore?
+2. Why in Explore but not in Google?
 3. Does the README provide enough text after the H1 for a SERP snippet?
 
 - your repo name should use dashes ("-") separating each word and each word should be keywords that people search for, not your app name. It can be your app name if you are building an NPM package or some other tool that devs will use.
