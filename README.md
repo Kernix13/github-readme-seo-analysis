@@ -558,6 +558,9 @@ Follow these steps to set up the project locally.
 
    ```bash
    pip install -r requirements.txt
+
+   # register kernel (one-time)
+   python -m ipykernel install --user --name=venv --display-name "Python (venv)"
    ```
 
 ### ⚡ Quick Start (Windows)
@@ -607,6 +610,8 @@ pip install -r requirements.txt
    ```
 
 **Note**: If you are using Anaconda or another environment manager, you can open the notebook using your preferred tool (e.g., Anaconda Navigator or jupyter lab) after installing the required dependencies.
+
+Running `jupyter notebook` does not work. To get `jupyter lab` to run I have to run `python -m ipykernel install --user --name=venv --display-name "Python (venv)"` - ChatGPT sucks! How do I stop the kernel from the browser or do I just run `deactivate`?
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 

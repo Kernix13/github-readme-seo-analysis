@@ -24,7 +24,7 @@ Keyword placement (early vs buried)
 
 > FROM GEMINI: Google often "scrapes" the first 150–160 characters of your README to use as the meta description snippet in search results. Having a clean, keyword-rich intro with proper semantic tags like `<abbr>` signals to the crawler that your content is high-quality and structured.
 
-> The Pro Move: Ensure your first sentence contains your primary keyword within the first 60 characters.
+> The Pro Move: Ensure your first sentence contains your primary keyword within the first 60 characters. Google often uses the top of the document heavily
 
 1. Why are repos in Google but not in Explore?
 2. Why in Explore but not in Google?
