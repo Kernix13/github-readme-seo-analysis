@@ -19,6 +19,7 @@ __pycache__/
 
 # Jupyter Notebook checkpoints
 notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/
 
 # OS files
 .DS_Store
