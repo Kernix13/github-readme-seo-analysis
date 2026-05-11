@@ -82,6 +82,7 @@ The end goal is to turn these findings into practical insights that can be appli
    - Intro paragraphs (I need intro text)
 3. Does Google fall back to:
    - username/repo for SEO Title when no usable text exists?
+4. Does having a good repo name with `-` as a separator result in a higher rank on average?
 
 <div align="right">&#8673; <a href="#back-to-top">Back to Top</a></div>
 
